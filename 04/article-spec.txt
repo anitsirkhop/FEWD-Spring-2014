@@ -1,4 +1,4 @@
-Page
+XXX Page
 	- Background #666
 
 Frame
@@ -8,31 +8,31 @@ Frame
 Content 
 	- 775px wide
 
-Page Title 
+XXX Page Title 
 	- Georgia Bold, 42px, 1, #930
 
-Section Title
+XXX Section Title
 	- Georgia Bold, 28px, 1, #333
 
-Sub-Section Title
+XXX Sub-Section Title
 	- Georgia Bold Italic, 22px, 1, #333
 
-List Title
+XXX List Title
 	- Georgia Bold, all caps, 14px, 1, #999
 
-Paragraph
+XXX Paragraph
 	- Helvetica, 14px, 1.8, #333
 
-Lists
+XXX Lists
 	- Helvetica, 14px, 1.8, #333
 
-Links
+XXX Links
 	- #930
 
-Quotes
+XXX Quotes
 	- Georgia Italic, 16px, 1.8, #333
 	- Background #f6f6f6
 	- Left border, 10px, #e3e3e3
 
-Dividers
+XXX Dividers
 	- 1px #e5e5e5
