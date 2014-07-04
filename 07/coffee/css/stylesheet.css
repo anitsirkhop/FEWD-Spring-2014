@@ -1,0 +1,170 @@
+body {
+	font-family: "Lucida Grande", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	color: #6D3B1C;
+	font-family: "Georgia", serif;
+	font-size: 28px;
+	font-weight: normal;
+	margin: 30px 0;
+	text-align: center;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 940px;
+}
+
+.clearfix:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.header {
+	background: #241915;
+	background-image: url(../images/beans.jpg);
+	height: 450px;
+	margin: 50px auto;
+	position: relative;
+	width: 940px;
+}
+
+.header .logo {
+	background-image: url(../images/logo.png);
+	height: 103px;
+	left: 50%;
+	margin: -51px 0 0 -135px;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 100%;
+	top: 50%;
+	white-space: nowrap;
+	width: 271px;
+}
+
+.opening {
+	margin: 100px auto;
+	position: relative;
+	width: 550px;
+	color: #999;
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.opening h2 {
+	color: #261913;
+	font-family: "Georgia", serif;
+	font-size: 32px;
+	font-weight: 100;
+	line-height: 1;
+	margin: 20px 0;
+}
+
+.opening p {
+	color: #666;
+	font-size: 18px;
+	line-height: 1.7;
+}
+
+.menu {
+	background: #f6f6f6;
+	margin: 50px auto;
+	padding: 50px 80px;
+	width: 780px;
+}
+
+.menu li {
+	border-bottom: 1px solid #ccc;
+	color: #666;
+	font-size: 15px;
+	line-height: 1.5;
+	list-style: none;
+	margin: 5px 0;
+	padding: 10px 0;
+	width: 48%;
+}
+
+.menu li.no_border {
+	border: none;
+}
+
+.menu .price {
+	color: #666;
+	width: 60px;
+}
+
+.details {
+	margin: 100px auto;
+	width: 615px;
+}
+
+.details h4 {
+	color: #261913;
+	font-family: "Georgia", serif;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 20px 0 15px;
+	text-transform: uppercase;
+}
+
+.details p {
+	color: #666;
+	font-size: 15px;
+	margin: 10px 0;
+	line-height: 1.7;
+}
+
+.details .button {
+	border: 3px solid #5F3F26;
+	color: #5F3F26;
+	display: inline-block;
+	font-size: 15px;
+	margin: 10px 0 0;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.footer {
+	background: #241915;
+	color: #fff;
+	font-size: 13px;
+	line-height: 1.5;
+	padding: 50px 0 60px;
+	text-transform: uppercase;
+}
+
+.footer .copyright {
+	margin: 0;
+}
+
+.footer .social_nav {
+	margin: 0;
+}
+
+.footer .social_nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer .icon {
+	background: url(../images/icon.png);
+	height: 45px;
+	overflow: hidden;
+	width: 45px;
+	margin: 0 auto -30px;
+	text-indent: 100%;
+	white-space: nowrap;
+}
