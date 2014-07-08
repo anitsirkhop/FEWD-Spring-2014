@@ -1,0 +1,182 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 940px;
+}
+
+.clearfix {
+	clear: both;
+	content:'';
+	display: block;
+}
+
+.header {
+	background: #241915 url(../images/beans.jpg) no-repeat;
+	height:450px;
+	margin: 50px auto;
+	position: relative;
+	/* width: 940px; */
+}
+
+.opening {
+	margin: 100px auto;
+	position: relative;
+	width: 620px;
+	color: #999;
+	font-family: "Helvetica" sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+h2 {
+	color: #261913;
+	font-family: "Georgia" serif;
+	font-size: 32px;
+	font-weight: 100;
+	line-height: 1;
+	text-align: center;
+}
+
+h3 {
+	color: #6D3B1C;
+	font-family: "Georgia" serif;
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 1;
+	text-align: center;
+}
+
+.menu {
+	background-color: #f6f6f6;
+	margin: 0 auto;
+	padding: 75px;
+	width: 630px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.menu_list {
+	margin-bottom: 100px;
+}
+
+.menu_list_item {
+	border-bottom: 1px solid #ccc;
+	color: #666;
+	font-family: "Helvetica" sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	list-style: none;
+	margin: 5px 0;
+	padding: 10px 0;
+	width: 48%;
+}
+
+li.no_border {
+	border:0px;
+}
+
+.menu_list_price {
+	color: #666;
+	font-family: "Helvetica" sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 60px;
+}
+
+.menu_table {
+	border-collapse: collapse;
+	padding-top: 100px;
+	background: lime;
+	width: 590px;
+}
+
+.menu_table_item {
+	border-bottom: 1px solid #ccc;
+	color: #666;
+	font-family: "Helvetica" sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	list-style: none;
+	margin: 5px 0;
+	padding: 10px 0;
+	width: 200px;
+}
+
+.menu_table_price {
+	border-bottom: 1px solid #ccc;
+	color: #666;
+	font-family: "Helvetica" sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 60px;
+}
+
+.menu_table_spacer {
+	border-bottom: 0px;
+	width: 25px;
+}
+
+@media screen and (min-width: 740px) {
+	/* Target screens >= 740 pixels wide */
+	 remove padding
+	 remove width
+	 
+}
+
+.logo {
+	background: url(../images/logo.png);
+	height: 103px;
+	left: 50%;
+	margin: -51px 0 0 -135px;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 100%;
+	top: 50%;
+	white-space: nowrap;
+	width: 271px;
+}
+
+.footer {
+	background: #241915;
+	padding: 50px 0 60px;
+	text-transform: uppercase;
+	font-family: "Helvetica" sans-serif;
+	font-size: 13px;
+	color: #fff;
+	line-height: 1.5;
+}
+
+.copyright {
+	margin: 0;
+}
+
+.social_nav {
+	margin: 0;
+}
+
+.social_nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.icon {
+	background: url(../images/icon.png);
+	height: 45px;
+	overflow: hidden;
+	width: 45px;
+	margin: 0 auto;
+	text-indent: 100%;
+	white-space: nowrap;
+}
